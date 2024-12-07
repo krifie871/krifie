@@ -136,7 +136,6 @@ def play_game():
 
     while True: #smyčka pro více her
         numbers = generate_number()
-        print(numbers) ###ODSTRANIT PŘED ODEVZDÁNÍM###
         print_intro()
 
         attempts = 0  # ukládá počty pokusů
